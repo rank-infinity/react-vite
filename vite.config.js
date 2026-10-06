@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/react-vite/',
   server:{
-    open: true,
+    open: false,
     port: 3001,
   },
 })
