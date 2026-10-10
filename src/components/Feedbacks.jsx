@@ -19,7 +19,7 @@ const FeedbackCard = ({index, testimonial, name, designation, company, image}) =
               <span className='blue-text-gradient'>@</span> {name}
             </p>
             <p className='mt-1 text-secondary text-[12px]'>
-              {designation} of {company}
+              {designation} - {company}
             </p>
           </div>
           <img 
@@ -38,7 +38,7 @@ const Feedbacks = () => {
     <div className='mt-12 bg-black-100 rounded-[20px]'>
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
+          <p className={styles.sectionSubText}>What my past teams say</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>

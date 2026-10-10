@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Canvas for 3D computer graphics */}
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       {/* Scroll */}
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
